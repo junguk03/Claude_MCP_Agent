@@ -1,0 +1,22 @@
+# 회차 정보
+run:         261115_fable_1
+model:       claude-fable-5-2
+dir:         /home/junguk/Claude_MCP_Agent
+start:       2026-11-15 03:23:51 KST
+claude:      2.1.323 (Claude Code)
+commit:      7983cf0 Docs: 정찰 경로 선택 규칙과 요청 한도 조정
+git_status:  runs/ 폴더만 추적 안 됨 (코드 변경 없음)
+
+# 사용량 (/usage 끝 화면)
+duration:    6m51s
+requests:    8
+fable-5-2:   input 16 / output 20.1k / cache read 527.2k / cache write 126.9k / $2.94
+haiku-5-5:   input 1.2k / output 381 / $0.0003 (Claude Code 보조)
+
+# 플랜 사용률 (시작 → 끝)
+session:     16% → 20%
+week_all:    45% → 45%
+week_fable:  36% → 37%
+
+# 메모
+- (거절, 중단, 승인 창에서 거부한 것 등 특이사항)

@@ -1,0 +1,23 @@
+# 회차 정보
+run:         261115_fable_2
+model:       claude-fable-5-2
+dir:         /home/junguk/Claude_MCP_Agent
+start:       Sun Nov 15 03:36:19 AM KST 2026
+claude:      2.1.325 (Claude Code)
+commit:      7983cf0 Docs: 정찰 경로 선택 규칙과 요청 한도 조정
+git_status:  코드 변경 없음
+
+# 사용량 (/usage 끝 화면)
+duration:    10m5s (API 4m0s)
+requests:    9
+fable-5-2:   input 20 / output 27.3k / cache read 705.0k / cache write 128.6k / $3.29
+haiku-5-5:   input 1.2k / output 318 / $0.0003 (Claude Code 보조)
+
+# 플랜 사용률 (시작 → 끝)
+session:     21% → 26%
+week_all:    45% → 46%
+week_fable:  37% → 38%
+
+# 메모
+- 지시문에 보고서 이름을 fable_1로 잘못 줌. 덮어쓰기 거부 후 fable_2로 정정 지시
+  (정정 대화 1번이 추가돼서 시간, 요청 수, 토큰이 1회차보다 조금 늘었을 수 있음)

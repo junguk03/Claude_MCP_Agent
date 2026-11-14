@@ -1,0 +1,22 @@
+# 회차 정보
+run:         261115_v1_sonnet_1
+model:       claude-sonnet-5-5
+dir:         /home/junguk/Claude_MCP_Agent_v1
+start:       Sun Nov 15 04:24:05 AM KST 2026
+claude:      2.1.325 (Claude Code)
+commit:      68e308d Feat: MCP 정찰 에이전트 초기 구성 및 감사 로그 추가 (옛 도구: port_scan, http_get 4000바이트)
+git_status:  코드 변경 없음
+
+# 사용량 (/usage 끝 화면)
+duration:    6m0s (API 41s)
+requests:    7
+sonnet-5-5:  input 1.0k / output 4.4k / cache read 396.1k / cache write 25.1k / $0.1858
+haiku-5-5:   input 1.2k / output 24 / $0.0001 (Claude Code 보조)
+
+# 플랜 사용률 (시작 → 끝)
+session:     30% → 31%
+week_all:    46% → 46%
+week_fable:  38% → 38%
+
+# 메모
+- 3000번 외 포트로 가는 요청 없음 (거절 0회)

@@ -1,0 +1,23 @@
+# 회차 정보
+run:         261118_v3_sonnet_1
+model:       claude-sonnet-5-5
+dir:         /home/junguk/Claude_MCP_Agent
+start:       Wed Nov 18 02:32:27 AM KST 2026
+claude:      2.1.326 (Claude Code)
+commit:      850a48f Docs: 정찰 요청 한도와 경로 우선순위 조정
+git_status:  코드 변경 없음
+
+# 사용량 (/usage 끝 화면, 토큰은 세션 기록에서 합산)
+duration:    14m15s (API 3m14s)
+sonnet-5-5:  input 28 / output 29.8k / cache read 1258.2k / cache write 203.9k / $1.27 (/usage 총액)
+haiku-5-5:   input 1.2k / output 312 / $0.0003 (Claude Code 보조)
+
+# 플랜 사용률 (시작 값은 기록하지 못함 → 끝)
+session:     - → 13%
+week_all:    - → 12%
+
+# 메모
+- 세션 46b7c61d
+- 첫 시작 시도(02:28)는 Juice Shop 컨테이너가 꺼져 있어 실패했고, 컨테이너를 켠 뒤 02:32에 다시 시작함
+- Claude Code 2.1.326 (v2 회차는 2.1.325)
+- 수동 승인으로 진행해서 wall 시간에는 승인 대기가 포함됨

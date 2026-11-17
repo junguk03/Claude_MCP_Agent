@@ -1,0 +1,23 @@
+# 회차 정보
+run:         261118_v3_sonnet_2
+model:       claude-sonnet-5-5
+dir:         /home/junguk/Claude_MCP_Agent
+start:       Wed Nov 18 03:33:49 AM KST 2026
+claude:      2.1.326 (Claude Code)
+commit:      850a48f Docs: 정찰 요청 한도와 경로 우선순위 조정
+git_status:  코드 변경 없음
+
+# 사용량 (/usage 끝 화면, 토큰은 세션 기록에서 합산)
+duration:    6m43s (API 3m7s)
+sonnet-5-5:  input 20 / output 27.8k / cache read 703.0k / cache write 194.5k / $1.13 (/usage 총액)
+haiku-5-5:   input 1.2k / output 456 / $0.0004 (Claude Code 보조)
+
+# 플랜 사용률 (시작 → 끝)
+session:     25% → 32%
+week_all:    14% → 15%
+
+# 메모
+- 세션 1aad9db0
+- Claude Code 2.1.326 (v2 회차는 2.1.325)
+- 실행 중 다른 터미널에서 sudo ss -ltnp로 포트 확인: 45159=claude, 42201=containerd
+- 수동 승인으로 진행해서 wall 시간에는 승인 대기가 포함됨
